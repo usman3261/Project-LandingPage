@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding:20px
+    
+}
+.h1{
+    margin-left: auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+.fourbox{
+    display: flex;
+}
+.box{
+    width:100px;
+    height:100px;
+    gap:20px;
+    
+}
+.thor{
+    display: flex;
+    flex-direction: column;
+}
+.by{
+    align-self: flex-end;
+}
+.blue{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.signup-1{
+    margin-left: auto;
+}
